@@ -1,167 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mohammed Afsal | Mobile Engineer</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-    header {
-      background-color: #1e1e1e;
-      color: #fff;
-      padding: 40px 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5em;
-    }
-    header p {
-      font-size: 1.2em;
-      margin-top: 10px;
-    }
-    section {
-      max-width: 960px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-    h2 {
-      border-bottom: 2px solid #1e1e1e;
-      padding-bottom: 5px;
-    }
-    .job {
-      margin-bottom: 20px;
-    }
-    .job h3 {
-      margin-bottom: 5px;
-    }
-    .job p {
-      margin: 5px 0;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-    footer {
-      background-color: #1e1e1e;
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
-    }
-    a {
-      color: #007acc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohammed Afsal | Mobile Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+    <header class="bg-gray-900 text-white py-10 text-center">
+      <h1 class="text-4xl font-bold">Mohammed Afsal</h1>
+      <p class="mt-2 text-lg">Senior iOS Developer | Mobile Architect</p>
+      <p class="text-sm mt-2">
+        <a href="mailto:afsalkp.mohammed@gmail.com" class="underline text-blue-400">afsalkp.mohammed@gmail.com</a> |
+        +971 50 511 5744
+      </p>
+    </header>
 
-<header>
-  <h1>Mohammed Afsal</h1>
-  <p>Senior iOS Developer | Mobile Architect | 10+ Years Experience</p>
-  <p><a href="mailto:afsalkp.mohammed@gmail.com">afsalkp.mohammed@gmail.com</a> | +971 50 511 5744</p>
-</header>
+    <main class="max-w-6xl mx-auto px-4 py-8">
+      <section class="mb-10">
+        <h2 class="text-2xl font-semibold border-b-2 border-gray-700 pb-1">About Me</h2>
+        <p class="mt-4">
+          Mobile engineer with 10+ years of experience building scalable, testable, and user-friendly
+          mobile apps. Delivered apps with over 5M+ downloads using modern frameworks and
+          clean architectures.
+        </p>
+      </section>
 
-<section>
-  <h2>About Me</h2>
-  <p>
-    I am a mobile engineer with over 10 years of experience contributing to apps with more than 5M downloads. Skilled in creating scalable, testable, and user-centric applications with a strong focus on architecture and modern mobile frameworks.
-  </p>
-</section>
+      <section class="mb-10">
+        <h2 class="text-2xl font-semibold border-b-2 border-gray-700 pb-1">Experience</h2>
+        <div class="mt-6 space-y-6">
+          <div>
+            <h3 class="text-xl font-semibold">Freelance - Mobile Architect <span class="text-sm font-normal">(Dubai, Oct 2023 – Present)</span></h3>
+            <ul class="list-disc ml-6 mt-2 text-sm">
+              <li>TDD & DDD with modular architecture (MVVM, SOLID)</li>
+              <li>CI/CD with GitHub Actions, SwiftUI, Combine, XCTest</li>
+            </ul>
+          </div>
 
-<section>
-  <h2>Experience</h2>
-  <div class="job">
-    <h3>Mobile Architect — Freelance, Dubai (2023 – Present)</h3>
-    <ul>
-      <li>Built iOS apps with TDD, DDD, MVVM, and modular architecture.</li>
-      <li>CI/CD with GitHub Actions; SwiftUI, Combine, Core Data.</li>
-    </ul>
-  </div>
+          <div>
+            <h3 class="text-xl font-semibold">Abu Dhabi Digital Authority - iOS Technical Lead <span class="text-sm font-normal">(Oct 2022 – Sep 2023)</span></h3>
+            <p class="text-sm italic"><a href="https://www.tamm.abudhabi" class="text-blue-500" target="_blank">TAMM Project</a></p>
+            <ul class="list-disc ml-6 mt-2 text-sm">
+              <li>Led VIPER architecture and junior developer mentoring</li>
+            </ul>
+          </div>
 
-  <div class="job">
-    <h3>iOS Technical Lead — Abu Dhabi Digital Authority (2022 – 2023)</h3>
-    <p><a href="https://www.tamm.abudhabi" target="_blank">TAMM Project</a></p>
-    <ul>
-      <li>Led modular VIPER architecture and mentoring.</li>
-    </ul>
-  </div>
+          <div>
+            <h3 class="text-xl font-semibold">Homebase - Staff iOS Engineer <span class="text-sm font-normal">(Remote USA, Feb 2022 – Oct 2022)</span></h3>
+            <ul class="list-disc ml-6 mt-2 text-sm">
+              <li>Biometric auth, Plaid SDK, migration from ObjC to Swift (MVVM-C)</li>
+            </ul>
+          </div>
 
-  <div class="job">
-    <h3>Staff iOS Engineer — Homebase, Remote USA (2022)</h3>
-    <ul>
-      <li>Migrated code from Objective-C to Swift MVVM-C.</li>
-      <li>Integrated biometric auth and Plaid SDK.</li>
-    </ul>
-  </div>
+          <!-- Add more experiences if needed -->
+        </div>
+      </section>
 
-  <div class="job">
-    <h3>Senior iOS Developer — G42, Abu Dhabi (2021–2022)</h3>
-    <ul>
-      <li>Led HealthierU app; implemented Agora video chat.</li>
-    </ul>
-  </div>
+      <section class="mb-10">
+        <h2 class="text-2xl font-semibold border-b-2 border-gray-700 pb-1">Skills</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4 text-sm">
+          <div><strong>Languages:</strong> Swift, Objective-C, Kotlin, Dart, C++</div>
+          <div><strong>Frameworks:</strong> SwiftUI, UIKit, Combine, Core Data, RxSwift</div>
+          <div><strong>Architecture:</strong> MVC, MVVM, VIPER, Clean</div>
+          <div><strong>CI/CD:</strong> Fastlane, CircleCI, GitHub Actions</div>
+          <div><strong>Testing:</strong> XCTest, Integration, Snapshot</div>
+          <div><strong>Tools:</strong> Xcode, Instruments, Proxyman, Charles</div>
+        </div>
+      </section>
 
-  <!-- Add more entries as needed from your CV -->
-</section>
+      <section class="mb-10">
+        <h2 class="text-2xl font-semibold border-b-2 border-gray-700 pb-1">Education & Certifications</h2>
+        <ul class="list-disc ml-6 mt-4 text-sm">
+          <li>B.Tech in Electronics & Communications — University of Calicut (2007–2011)</li>
+          <li>iOS Lead Essentials — <a href="https://me.essentialdeveloper.com/achievements/c45d311b-812b-4bc0-8c02-3f7e90637d4e" class="text-blue-500" target="_blank">Certificate</a></li>
+        </ul>
+      </section>
 
-<section>
-  <h2>Skills & Competence</h2>
-  <div class="skills-grid">
-    <div>
-      <strong>Languages:</strong><br>
-      Swift, Objective-C, Kotlin, Java, Dart, C/C++
-    </div>
-    <div>
-      <strong>Frameworks:</strong><br>
-      UIKit, SwiftUI, Combine, RxSwift, Core Data, BLE
-    </div>
-    <div>
-      <strong>Tools & CI/CD:</strong><br>
-      Xcode, GitHub Actions, Fastlane, CircleCI
-    </div>
-    <div>
-      <strong>Architectures:</strong><br>
-      MVC, MVVM, MVVM-C, VIPER, Clean
-    </div>
-    <div>
-      <strong>Testing:</strong><br>
-      XCTest, Unit, Integration, Snapshot
-    </div>
-    <div>
-      <strong>APIs & Payment:</strong><br>
-      REST, GraphQL, Apple Pay, Plaid, Stripe, PayPal
-    </div>
-  </div>
-</section>
+      <section class="mb-10">
+        <h2 class="text-2xl font-semibold border-b-2 border-gray-700 pb-1">Languages</h2>
+        <p class="mt-2 text-sm">English, Hindi</p>
+      </section>
+    </main>
 
-<section>
-  <h2>Education & Certifications</h2>
-  <p><strong>B.Tech in Electronics & Communication</strong> — University of Calicut (2007–2011)</p>
-  <p><strong>iOS Lead Essentials</strong> — <a href="https://me.essentialdeveloper.com/achievements/c45d311b-812b-4bc0-8c02-3f7e90637d4e" target="_blank">Certificate Link</a></p>
-</section>
-
-<section>
-  <h2>Languages</h2>
-  <p>English, Hindi</p>
-</section>
-
-<footer>
-  <p>LinkedIn: <a href="http://www.linkedin.com/in/afsal-mohamed-033277146" target="_blank">afsal-mohamed</a> | Portfolio generated from CV</p>
-</footer>
-
-</body>
+    <footer class="bg-gray-800 text-white text-center py-4">
+      <p class="text-sm">
+        LinkedIn: <a href="https://linkedin.com/in/afsal-mohamed-033277146" class="text-blue-400" target="_blank">afsal-mohamed</a>
+        &mdash; © Mohammed Afsal 2025
+      </p>
+    </footer>
+  </body>
 </html>
