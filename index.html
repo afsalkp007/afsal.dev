@@ -1,107 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Build With Afsal</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mohammed Afsal | Mobile Engineer</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
-      padding: 0;
-      background: #f9f9f9;
+      background-color: #f4f4f4;
       color: #333;
     }
-    header, footer {
-      background: #fff;
-      padding: 2rem;
+    header {
+      background-color: #1e1e1e;
+      color: #fff;
+      padding: 40px 20px;
       text-align: center;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     }
     header h1 {
       margin: 0;
-      font-size: 2rem;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
     }
     section {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 0 20px;
     }
-    .section-title {
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-      border-bottom: 2px solid #eee;
-      padding-bottom: .5rem;
+    h2 {
+      border-bottom: 2px solid #1e1e1e;
+      padding-bottom: 5px;
     }
-    .experience, .project {
-      margin-bottom: 1.5rem;
+    .job {
+      margin-bottom: 20px;
     }
-    .contact-icons a {
-      margin: 0 0.5rem;
-      color: #555;
+    .job h3 {
+      margin-bottom: 5px;
+    }
+    .job p {
+      margin: 5px 0;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    footer {
+      background-color: #1e1e1e;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    a {
+      color: #007acc;
       text-decoration: none;
     }
-    .contact-icons a:hover {
-      color: #000;
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Mohammed Afsal</h1>
-    <p>Mobile Engineer with 10+ years of experience</p>
-    <div class="contact-icons">
-      <a href="mailto:afsalkp.mohammed@gmail.com"><i class="fas fa-envelope"></i></a>
-      <a href="https://www.linkedin.com/in/afsal-mohamed-033277146" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+<header>
+  <h1>Mohammed Afsal</h1>
+  <p>Senior iOS Developer | Mobile Architect | 10+ Years Experience</p>
+  <p><a href="mailto:afsalkp.mohammed@gmail.com">afsalkp.mohammed@gmail.com</a> | +971 50 511 5744</p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>
+    I am a mobile engineer with over 10 years of experience contributing to apps with more than 5M downloads. Skilled in creating scalable, testable, and user-centric applications with a strong focus on architecture and modern mobile frameworks.
+  </p>
+</section>
+
+<section>
+  <h2>Experience</h2>
+  <div class="job">
+    <h3>Mobile Architect — Freelance, Dubai (2023 – Present)</h3>
+    <ul>
+      <li>Built iOS apps with TDD, DDD, MVVM, and modular architecture.</li>
+      <li>CI/CD with GitHub Actions; SwiftUI, Combine, Core Data.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <h3>iOS Technical Lead — Abu Dhabi Digital Authority (2022 – 2023)</h3>
+    <p><a href="https://www.tamm.abudhabi" target="_blank">TAMM Project</a></p>
+    <ul>
+      <li>Led modular VIPER architecture and mentoring.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <h3>Staff iOS Engineer — Homebase, Remote USA (2022)</h3>
+    <ul>
+      <li>Migrated code from Objective-C to Swift MVVM-C.</li>
+      <li>Integrated biometric auth and Plaid SDK.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <h3>Senior iOS Developer — G42, Abu Dhabi (2021–2022)</h3>
+    <ul>
+      <li>Led HealthierU app; implemented Agora video chat.</li>
+    </ul>
+  </div>
+
+  <!-- Add more entries as needed from your CV -->
+</section>
+
+<section>
+  <h2>Skills & Competence</h2>
+  <div class="skills-grid">
+    <div>
+      <strong>Languages:</strong><br>
+      Swift, Objective-C, Kotlin, Java, Dart, C/C++
     </div>
-  </header>
-
-  <section>
-    <div class="section-title">About Me</div>
-    <p>I am a mobile engineer with over a decade of experience building robust, user-friendly, and scalable iOS applications. My work has powered apps with millions of downloads. I specialize in Swift, SwiftUI, MVVM, VIPER, and test-driven development.</p>
-  </section>
-
-  <section>
-    <div class="section-title">Experience</div>
-    <div class="experience">
-      <strong>Freelance – Mobile Architect (Dubai, UAE)</strong><br>
-      <em>Oct 2023 – Present</em>
-      <p>Developed modular iOS apps with TDD, CI/CD using GitHub Actions.</p>
+    <div>
+      <strong>Frameworks:</strong><br>
+      UIKit, SwiftUI, Combine, RxSwift, Core Data, BLE
     </div>
-    <div class="experience">
-      <strong>Abu Dhabi Digital Authority – iOS Technical Lead</strong><br>
-      <em>Oct 2022 – Sep 2023</em>
-      <p>Led TAMM app development with VIPER architecture, mentorship, and roadmap planning.</p>
+    <div>
+      <strong>Tools & CI/CD:</strong><br>
+      Xcode, GitHub Actions, Fastlane, CircleCI
     </div>
-    <!-- Add more as needed -->
-  </section>
-
-  <section>
-    <div class="section-title">Skills</div>
-    <p>Swift, SwiftUI, UIKit, Combine, RxSwift, Core Data, Firebase, VIPER, MVVM, CI/CD, Unit Testing, GitHub Actions, GraphQL, REST, Apple Pay, Agile, Xcode.</p>
-  </section>
-
-  <section>
-    <div class="section-title">Blogs</div>
-    <p>Coming soon... Stay tuned for iOS tips and deep-dives.</p>
-  </section>
-
-  <section>
-    <div class="section-title">Projects</div>
-    <div class="project">
-      <strong>TAMM – Abu Dhabi Government</strong><br>
-      <a href="https://apps.apple.com/ae/app/tamm-abu-dhabi-government/id1435485576" target="_blank">View on App Store</a>
+    <div>
+      <strong>Architectures:</strong><br>
+      MVC, MVVM, MVVM-C, VIPER, Clean
     </div>
-    <div class="project">
-      <strong>ALHOSN UAE – Digital Health Passport</strong><br>
-      <a href="https://apps.apple.com/ae/app/alhosn-uae/id1505380329" target="_blank">View on App Store</a>
+    <div>
+      <strong>Testing:</strong><br>
+      XCTest, Unit, Integration, Snapshot
     </div>
-    <!-- Add more if needed -->
-  </section>
+    <div>
+      <strong>APIs & Payment:</strong><br>
+      REST, GraphQL, Apple Pay, Plaid, Stripe, PayPal
+    </div>
+  </div>
+</section>
 
-  <footer>
-    <p>&copy; 2025 BuildWithAfsal. All rights reserved.</p>
-  </footer>
+<section>
+  <h2>Education & Certifications</h2>
+  <p><strong>B.Tech in Electronics & Communication</strong> — University of Calicut (2007–2011)</p>
+  <p><strong>iOS Lead Essentials</strong> — <a href="https://me.essentialdeveloper.com/achievements/c45d311b-812b-4bc0-8c02-3f7e90637d4e" target="_blank">Certificate Link</a></p>
+</section>
+
+<section>
+  <h2>Languages</h2>
+  <p>English, Hindi</p>
+</section>
+
+<footer>
+  <p>LinkedIn: <a href="http://www.linkedin.com/in/afsal-mohamed-033277146" target="_blank">afsal-mohamed</a> | Portfolio generated from CV</p>
+</footer>
+
 </body>
 </html>
